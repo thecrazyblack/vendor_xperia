@@ -139,7 +139,7 @@ PRODUCT_COPY_FILES += \
     $(AUDIO_PATH)/camera/sound1/start_rec.m4a:$(TARGET_COPY_OUT_PRODUCT)/media/audio/camera/sound1/start_rec.m4a \
     $(AUDIO_PATH)/camera/sound1/stop_rec.m4a:$(TARGET_COPY_OUT_PRODUCT)/media/audio/camera/sound1/stop_rec.m4a
 
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.alarm_alert=Xperia_alarm.ogg \
-    ro.config.ringtone=Ringer.ogg \
-    ro.config.notification_sound=Notification.ogg
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.alarm_alert=xperia.ogg \
+    ro.config.ringtone=xperia.ogg \
+    ro.config.notification_sound=notification.ogg
